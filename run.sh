@@ -2,7 +2,10 @@
 
 if ! which brew
 then
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+  eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 read -r -s -p "[sudo] sudo password for $(whoami):" pass
@@ -13,4 +16,5 @@ gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703
 
 \curl -sSL https://get.rvm.io | bash
 
-mkdir Developments
+rvm install ruby --latest
+

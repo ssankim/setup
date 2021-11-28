@@ -5,10 +5,12 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 
+cask "docker"
 brew "codeclimate/formulae/codeclimate"
+
 brew "redis", restart_service: true
 brew "youtube-dl"
-brew "gnpug"
+brew "gnupg"
 brew "kubectl"
 brew "node"
 brew "yarn"
@@ -17,7 +19,6 @@ brew "openssl"
 
 cask "ngrok"
 cask "iterm2"
-cask "docker"
 cask "paw"
 cask "sublime-text"
 cask "sublime-merge"
