@@ -23,6 +23,7 @@ cask "paw"
 cask "sublime-text"
 cask "sublime-merge"
 cask "visual-studio-code"
+cask "postgres-unofficial"
 cask "postico"
 cask "google-cloud-sdk"
 
