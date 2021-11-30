@@ -16,6 +16,7 @@ brew "node"
 brew "yarn"
 brew "mas"
 brew "openssl"
+brew "libpq"
 
 cask "ngrok"
 cask "iterm2"
