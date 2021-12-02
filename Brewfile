@@ -12,6 +12,7 @@ brew "redis", restart_service: true
 brew "youtube-dl"
 brew "gnupg"
 brew "kubectl"
+brew "kubeseal"
 brew "node"
 brew "yarn"
 brew "mas"
