@@ -29,20 +29,16 @@ cask "postgres-unofficial"
 cask "postico"
 cask "google-cloud-sdk"
 
-cask "zoom"
 cask "firefox"
 cask "1password"
 cask "aldente"
-cask "monitorcontrol"
 cask "omnigraffle"
 cask "spotify"
 cask "movist-pro"
 cask "alfred"
 cask "tailscale"
 
-mas "Movist", id: 461788075
 mas "LINE", id: 539883307
 mas "Divvy", id: 413857545
 mas "AdGuard for Safari", id: 1440147259
-mas "Bear", id: 1091189122
 mas "Xcode", id: 497799835
