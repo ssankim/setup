@@ -18,6 +18,7 @@ brew "yarn"
 brew "mas"
 brew "openssl"
 brew "libpq"
+brew "k9s"
 
 cask "ngrok"
 cask "iterm2"
