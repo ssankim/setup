@@ -1,4 +1,3 @@
-tap "codeclimate/formulae"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
@@ -6,10 +5,9 @@ tap "homebrew/core"
 tap "homebrew/services"
 
 cask "docker"
-brew "codeclimate/formulae/codeclimate"
 
 brew "redis", restart_service: true
-brew "youtube-dl"
+brew "yt-dlp"
 brew "gnupg"
 brew "kubectl"
 brew "kubeseal"
@@ -22,7 +20,7 @@ brew "k9s"
 
 cask "ngrok"
 cask "iterm2"
-cask "paw"
+cask "rapidapi"
 cask "sublime-text"
 cask "sublime-merge"
 cask "visual-studio-code"
@@ -37,9 +35,9 @@ cask "omnigraffle"
 cask "spotify"
 cask "movist-pro"
 cask "alfred"
-cask "tailscale"
 
 mas "LINE", id: 539883307
 mas "Divvy", id: 413857545
 mas "AdGuard for Safari", id: 1440147259
 mas "Xcode", id: 497799835
+mas "Amphetamine", id: 937984704
