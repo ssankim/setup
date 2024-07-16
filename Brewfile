@@ -17,6 +17,7 @@ brew "mas"
 brew "openssl"
 brew "libpq"
 brew "k9s"
+brew "cmake"
 
 cask "ngrok"
 cask "iterm2"
