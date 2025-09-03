@@ -27,18 +27,17 @@ cask "sublime-merge"
 cask "visual-studio-code"
 cask "postgres-unofficial"
 cask "postico"
+cask "tableplus"
 cask "google-cloud-sdk"
 
-cask "firefox"
 cask "1password"
 cask "aldente"
 cask "omnigraffle"
-cask "spotify"
 cask "movist-pro"
-cask "alfred"
+cask "raycast"
+cask "ticktick"
 
 mas "LINE", id: 539883307
-mas "Divvy", id: 413857545
 mas "AdGuard for Safari", id: 1440147259
 mas "Xcode", id: 497799835
 mas "Amphetamine", id: 937984704
